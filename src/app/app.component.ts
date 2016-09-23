@@ -10,9 +10,9 @@ import { Component, ViewEncapsulation } from '@angular/core';
     ],
     template: `
     <main class="mainCSS">
+    <main>
       <router-outlet></router-outlet>
     </main>
-
   `
 })
 export class App {
