@@ -1,0 +1,83 @@
+.home{
+    width: 100%;
+}
+.navbar-default{
+    background-color: #162233;
+}
+.navbar{
+    border:0;
+    margin-bottom: 0;
+}
+.row1{
+    max-height: 63px;
+}
+#icon1{
+    font-size: 22px;
+    height: 63px;
+    line-height: 63px;
+    color:#4877f9;
+}
+.brand{
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+}
+.home #icon1 img{
+    height: 16px;
+}
+.map{
+    width: 100%;    
+    max-height: 170px;
+}
+.map img{
+    width: 100%;
+    max-height: 235px;
+}
+.gym_a img{
+    width: 100%;
+    position: relative; 
+}
+.notations p{
+    margin: 0 0 0;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.subhead{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+}
+.time{
+    padding-top: 5px;
+}
+.center_flex{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}

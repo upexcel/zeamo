@@ -1,32 +1,29 @@
 
 import { Component, ViewEncapsulation } from '@angular/core';
 
-import { AppState } from './app.service';
 
 @Component({
-  selector: 'app',
-  encapsulation: ViewEncapsulation.None,
-  styleUrls: [
-    './app.style.css'
-  ],
-  template: `
+    selector: 'app',
+    encapsulation: ViewEncapsulation.None,
+    styleUrls: [
+        './app.style.css'
+    ],
+    template: `
+    <main class="mainCSS">
     <main>
       <router-outlet></router-outlet>
     </main>
-
   `
 })
 export class App {
-  angularclassLogo = 'assets/img/angularclass-avatar.png';
-  name = 'Angular 2 Webpack Starter';
+    angularclassLogo = 'assets/img/not.png';
+    name = 'Zeamo';
 
-  constructor(
-    public appState: AppState) {
+    constructor() {
 
-  }
+    }
 
-  ngOnInit() {
-    console.log('Initial App State', this.appState.state);
-  }
+    ngOnInit() {
+    }
 
 }
